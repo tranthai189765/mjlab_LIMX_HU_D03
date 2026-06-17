@@ -21,15 +21,20 @@ MuJoCo Warp environments.
 
 ---
 
-## Demo videos
+## Demo
 
-In [`video_checkpoint/`](video_checkpoint/):
+Trained policies running in MuJoCo (animated previews):
 
-| Locomotion | Mimic |
-| --- | --- |
-| `locomotion_walk_0.6ms.mp4` — walk at 0.6 m/s | `mimic_dance.mp4` — LAFAN1 dance |
-| `locomotion_run_1.5ms.mp4` — run at 1.5 m/s | `mimic_jumps.mp4` — LAFAN1 jumps |
-| `locomotion_run_2.0ms.mp4` — run at 2.0 m/s | `reference_*_retarget.mp4` — retarget references |
+| Locomotion — run 1.5 m/s | Mimic — Dance | Mimic — Jumps |
+| :---: | :---: | :---: |
+| ![run](video_checkpoint/preview_run.gif) | ![dance](video_checkpoint/preview_dance.gif) | ![jumps](video_checkpoint/preview_jumps.gif) |
+
+Full-quality clips (`.mp4`, with the locomotion walk and retargeting references)
+are in [`video_checkpoint/`](video_checkpoint/):
+
+- `locomotion_walk_0.6ms.mp4`, `locomotion_run_1.5ms.mp4`, `locomotion_run_2.0ms.mp4`
+- `mimic_dance.mp4`, `mimic_jumps.mp4`
+- `reference_dance_retarget.mp4`, `reference_jumps_retarget.mp4` (GMR retargeting references)
 
 ---
 
