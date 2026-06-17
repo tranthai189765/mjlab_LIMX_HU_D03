@@ -1,0 +1,9 @@
+.venv/
+logs/
+wandb/
+outputs/
+__pycache__/
+*.pyc
+*.egg-info/
+*.zip
+*.aux
